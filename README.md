@@ -10,6 +10,7 @@ GraphQL, express-graphql
 
 * node.js
 * newer version of npm that includes npx
+
     `npx nodemon fileName.js`
 * nodemon
 * Visual Studio Code
@@ -17,6 +18,8 @@ GraphQL, express-graphql
 * Insomnia
 
 # TODO
-* lots
-* git / github
+* example with a type that has some fields
+* example with built schema
+* example with related types -- Classes and Students
+* mutation example
 
