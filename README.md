@@ -14,17 +14,16 @@ GraphQL, express-graphql
 
     `npx nodemon fileName.js`
 * Visual Studio Code
-    * GraphQL for vS Code extension
+    * GraphQL for VS Code extension
 * Insomnia
 
 # Resources
 [Bridge Data](https://github.com/humphd/bridge-troll)
+
 [Troll Data](http://www.dreamworks.com/trolls/explore/trolls/toys)
 
 # TODO
-* example with a type that has some fields
-* example with built schema
-* example with related types
-    * courses and students
-    * bridges and trolls
-* mutation example
+3. built schema example
+4. bridges - querying examples
+5. bridges & trolls - querying examples
+6. adding a troll - mutation example

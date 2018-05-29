@@ -2,7 +2,6 @@ const { graphql, buildSchema} = require('graphql');
 const { GraphQLSchema, GraphQLObject, GraphQLString, GraphQLObjectType, GraphQLID, GraphQLInt } = require('graphql');
 const graphqlHTTP = require('express-graphql')
 
-// TODO put this whole project in github -- so I can work on it from any machine
 // TODO import types from class.gql?
 
 const MeetingType = new GraphQLObjectType({
