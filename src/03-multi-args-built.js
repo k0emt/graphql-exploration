@@ -16,7 +16,7 @@ const server = express();
 
 const schema = new GraphQLSchema({
     query: new GraphQLObjectType({
-        name: 'Query',
+        name: 'QueryRoot',  // <-- check out schema explorer
         fields: {
             echo: {
                 type: GraphQLString,
