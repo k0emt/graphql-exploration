@@ -5,14 +5,26 @@ const express = require('express');
 const server = express();
 
 const schema = buildSchema(`
+    type EchoType {
+        id: ID,
+        prefix: String,
+        message: String,
+        built_message: String
+    },
     type Query {
-        echo(prefix: String, message: String!): String
+        echo(prefix: String, message: String!): EchoType
     }
 `);
 
 const resolver = {
     echo: ({prefix, message}) => {
-        return prefix + ': ' + message;
+        return  {   
+            id: "some-unique-id",
+            prefix: prefix, 
+            message: message,
+            built_message: prefix + ": " + message,
+            nonTypeField: "yuk"      // <--
+        };
     },
 };
 

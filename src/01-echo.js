@@ -10,7 +10,7 @@ const schema = buildSchema(`
     }
 `);
 
-const root = {
+const resolvers = {
     echo: ({message}) => {
         return message;
     },
@@ -18,7 +18,7 @@ const root = {
 
 server.use('/', graphqlHTTP({
     schema, 
-    rootValue: root,
+    rootValue: resolvers,
     graphiql: true
 }));
 

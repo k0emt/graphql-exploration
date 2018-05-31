@@ -10,17 +10,19 @@ const schema = buildSchema(`
     }
 `);
 
-const root = {
+const resolver = {
     hello: () => {
         return "Hello World";
     },
    };
 
-server.use('/', graphqlHTTP({
-    schema, // short hand for schema: schema
-    rootValue: root,
-    graphiql: true
-}));
+server.use('/', // entry point
+    graphqlHTTP({
+        schema, // short hand for schema: schema
+        rootValue: resolver,
+        graphiql: true
+    })
+);
 
 server.listen(3000, () => {
         console.log('Server is running...http://localhost:3000/')
