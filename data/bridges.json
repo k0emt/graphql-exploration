@@ -1211,7 +1211,7 @@
 ,
 {"id":605,"name":"SELBY CREEK BRIDGE","lat":44.2661,"lng":-76.960903,"year":1960,"length":32,"width":19.8}
 ,
-{"id":606,"name":"CNR bridge over Hwy 401 at Napanee","lat":44.26576,"lng":-76.948937,"year":1961,"length":"","width":""}
+{"id":606,"name":"CNR bridge over Hwy 401 at Napanee","lat":44.26576,"lng":-76.948937,"year":1961,"length":null,"width":null}
 ,
 {"id":607,"name":"NEWBURGH UNDERPASSU/P","lat":44.265396,"lng":-76.944851,"year":1960,"length":31.1,"width":10.4}
 ,
@@ -3553,7 +3553,7 @@
 ,
 {"id":1776,"name":"SPADINA BRIDGE NO18B","lat":43.73113,"lng":-79.44952,"year":1965,"length":39.7,"width":9.8}
 ,
-{"id":1777,"name":"SPADINA BRIDGE NO18B","lat":"","lng":"","year":1964,"length":39.9,"width":9.8}
+{"id":1777,"name":"SPADINA BRIDGE NO18B","lat":null,"lng":null,"year":1964,"length":39.9,"width":9.8}
 ,
 {"id":1778,"name":"SPADINA BRIDGE #19 (NB ALLEN OVER 401RAMP)","lat":43.73167,"lng":-79.448846,"year":1965,"length":40.2,"width":19}
 ,
@@ -4351,9 +4351,9 @@
 ,
 {"id":2175,"name":"BAK CREEK BRIDGE","lat":51.726229,"lng":-93.659744,"year":1993,"length":12.2,"width":4.9}
 ,
-{"id":2176,"name":"Fort Severn Modular Bridge","lat":56.013437,"lng":-87.671875,"year":"","length":"","width":""}
+{"id":2176,"name":"Fort Severn Modular Bridge","lat":56.013437,"lng":-87.671875,"year":null,"length":null,"width":null}
 ,
-{"id":2177,"name":"Kasabonika Modular Bridge","lat":53.526317,"lng":-88.621312,"year":"","length":"","width":""}
+{"id":2177,"name":"Kasabonika Modular Bridge","lat":53.526317,"lng":-88.621312,"year":null,"length":null,"width":null}
 ,
 {"id":2178,"name":"VERMILION LAKE NARROWS BRIDGE","lat":50.0848,"lng":-92.1032,"year":1967,"length":13.4,"width":10.5}
 ,
@@ -5079,7 +5079,7 @@
 ,
 {"id":2539,"name":"ANDERSON DAM BREACHING STRUCTURE","lat":48.844,"lng":-91.5857,"year":1983,"length":38.4,"width":9.5}
 ,
-{"id":2540,"name":"RAINY RIVER TRIBUTARY BRIDGE","lat":48.593,"lng":-93.4698,"year":2012,"length":"","width":""}
+{"id":2540,"name":"RAINY RIVER TRIBUTARY BRIDGE","lat":48.593,"lng":-93.4698,"year":2012,"length":null,"width":null}
 ,
 {"id":2541,"name":"NAMAKAN RIVER BAILEY BRIDGEFlanders Road","lat":48.4469,"lng":-92.3909,"year":1980,"length":45.6,"width":4.5}
 ,
@@ -5225,7 +5225,7 @@
 ,
 {"id":2612,"name":"Secord Road Underpass","lat":46.31686,"lng":-80.81331,"year":2009,"length":91,"width":21.4}
 ,
-{"id":2613,"name":"OLD HWY 69 OVERPASS ( NBL)","lat":46.32881,"lng":"","year":2009,"length":104,"width":14.1}
+{"id":2613,"name":"OLD HWY 69 OVERPASS ( NBL)","lat":46.32881,"lng":null,"year":2009,"length":104,"width":14.1}
 ,
 {"id":2614,"name":"Old Highway 69 Overpass (SBL)","lat":46.33128,"lng":-80.80822,"year":2009,"length":104,"width":14.1}
 ,
@@ -5271,7 +5271,7 @@
 ,
 {"id":2635,"name":"North Texas Gate Bridge","lat":46.22924,"lng":-80.78,"year":2012,"length":4.6,"width":9}
 ,
-{"id":2636,"name":"South Texas Gate Bridge","lat":"","lng":"","year":2012,"length":4.5,"width":9}
+{"id":2636,"name":"South Texas Gate Bridge","lat":null,"lng":null,"year":2012,"length":4.5,"width":9}
 ,
 {"id":2637,"name":"ENGLEHART RIVER BRIDGE","lat":47.99584,"lng":-80.35367,"year":1969,"length":38.9,"width":10.4}
 ,
@@ -5357,7 +5357,7 @@
 ,
 {"id":2678,"name":"TATACHIKAPIKA RIVER BRIDGE","lat":48.33008,"lng":-81.57996,"year":1966,"length":28,"width":10.4}
 ,
-{"id":2679,"name":"ONR SUBWAY BRIDGE","lat":48.10841,"lng":-80.10334,"year":"","length":28,"width":6}
+{"id":2679,"name":"ONR SUBWAY BRIDGE","lat":48.10841,"lng":-80.10334,"year":null,"length":28,"width":6}
 ,
 {"id":2680,"name":"BLACKWATER RIVER BRIDGE","lat":49.608905,"lng":-87.957175,"year":1951,"length":49.2,"width":11.7}
 ,
@@ -5441,9 +5441,9 @@
 ,
 {"id":2720,"name":"CP Overhead @ Paipoonge, on Hwy 11/17N (Shabaqua Highway)","lat":48.390893,"lng":-89.421989,"year":2006,"length":75,"width":13.1}
 ,
-{"id":2721,"name":"McKenzie River Bridge (Eastbound)","lat":"","lng":"","year":2010,"length":"","width":""}
+{"id":2721,"name":"McKenzie River Bridge (Eastbound)","lat":null,"lng":null,"year":2010,"length":null,"width":null}
 ,
-{"id":2722,"name":"McKenzie River Bridge (Westbound)","lat":"","lng":"","year":2010,"length":"","width":""}
+{"id":2722,"name":"McKenzie River Bridge (Westbound)","lat":null,"lng":null,"year":2010,"length":null,"width":null}
 ,
 {"id":2723,"name":"MURKY CREEK BRIDGE","lat":50.0382,"lng":-86.7768,"year":1972,"length":54.7,"width":10.5}
 ,

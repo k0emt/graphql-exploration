@@ -42,3 +42,26 @@
   }
 }
 ```
+
+# 04-using-fields-bridges.js
+```
+{
+  byId(id:0) { # what about large id # 3000 ?
+    id,
+    name,
+    lat,
+    lng,
+    year,
+    length,
+    width
+  }
+}
+```
+
+```
+{
+  narrower(maxWidth:10.2) {
+    name, width, year
+  }
+}
+```

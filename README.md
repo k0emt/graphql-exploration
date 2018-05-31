@@ -23,7 +23,6 @@ GraphQL, express-graphql
 [Troll Data](http://www.dreamworks.com/trolls/explore/trolls/toys)
 
 # TODO
-3. built schema example
-4. bridges - querying examples
+
 5. bridges & trolls - querying examples
 6. adding a troll - mutation example
