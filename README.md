@@ -22,9 +22,11 @@ GraphQL, express-graphql
 
 [Troll Data](http://www.dreamworks.com/trolls/explore/trolls/toys)
 
-# TODO
+# For you TODO
 
 5b. bridges & trolls - typed querying examples
     - query by bridge and get trolls
 
-6. adding a troll - mutation example
+6.  Mutations
+    - add a troll
+    - remove a troll

@@ -139,7 +139,29 @@ Not all trolls live under a bridge!  (but these do)
 }
 ```
 
-
 # 06-mutations.js
+Current location -- 9
 ```
+{
+  trollById(id: 7) {
+    name
+    bridge {
+      id,
+      name
+    }
+  }
+}
+```
+
+Migration
+```
+mutation
+{
+	relocateTrollToBridge(trollId:7, bridgeId: 5) {
+    name,
+    bridge {
+      id, name
+    }
+  }
+}
 ```
