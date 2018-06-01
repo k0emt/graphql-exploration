@@ -48,7 +48,7 @@ const RootQuery= new GraphQLObjectType({
         bridgeById: {
             type: BridgeType,
             args: {
-                id: { type: GraphQLID }
+                id: { type: new GraphQLNonNull( GraphQLID ) }
             },
             resolve(parentValue, args) {
                 return bridges[args.id]; // <-- I'm getting lucky here
@@ -79,7 +79,7 @@ const RootQuery= new GraphQLObjectType({
         trollById: {
             type: TrollType,
             args: {
-                id: { type: GraphQLID }
+                id: { type: new GraphQLNonNull( GraphQLID ) }
             },
             resolve(parentValue, args) {
                 // let thisTroll = trolls[args.id];

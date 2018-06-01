@@ -25,8 +25,6 @@ GraphQL, express-graphql
 # TODO
 
 5b. bridges & trolls - typed querying examples
-    - query by troll and get bridges
     - query by bridge and get trolls
-    - get all trolls with their bridges
-    
+
 6. adding a troll - mutation example
