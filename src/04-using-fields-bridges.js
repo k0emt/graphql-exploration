@@ -20,19 +20,12 @@ const schema = buildSchema(`
     },
     type Query {
         byId(id: ID!): BridgeType,
-        narrower(maxWidth: Float!): [BridgeType]
+        narrower(maxWidth: Float!): [BridgeType],
+        bridges: [BridgeType]
     }
 `);
 
 const resolver = {
-    echo: ({prefix, message}) => {
-        return  {   
-            id: "some-unique-id",
-            prefix: prefix, 
-            message: message,
-            built_message: prefix + ": " + message
-        };
-    },
     byId: ({id}) => {
         return bridges[id]; // <-- I'm getting lucky here
     },
@@ -44,6 +37,9 @@ const resolver = {
             }
         }
         return matchedBridges;
+    },
+    bridges:() => {
+        return bridges;
     }
 };
 
