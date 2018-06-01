@@ -90,3 +90,56 @@
   }
 }
 ```
+
+# 05b-related-types-bridge-friends-typed.js
+```
+{
+	bridgeById(id:0) {
+    id, name, lat, lng, year, length, width
+  }
+}
+```
+
+```
+{
+	bridges {
+    id, name, lat, lng, year, length, width
+  }
+}
+```
+
+```
+{
+  narrowBridge(maxWidth:10) {
+    name, width, year
+  }
+}
+```
+
+Not all trolls live under a bridge!  (but these do)
+```
+{
+	trollById(id:8) {
+    id, name, gender, color, 
+	bridge {
+      name
+    }
+  }
+}
+```
+
+```
+{
+	trolls {
+    id, name, gender, color, 
+	bridge {
+      id, name, length
+    }
+  }
+}
+```
+
+
+# 06-mutations.js
+```
+```
