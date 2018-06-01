@@ -5,8 +5,8 @@ const express = require('express');
 const server = express();
 
 const bridges = require('../data/bridges.json');
+const trolls = require('../data/trolls.json');
 
-// what if length below is specified as an Int?
 const schema = buildSchema(`
     type BridgeType {
         id: ID,
@@ -17,7 +17,15 @@ const schema = buildSchema(`
         length: Float,
         width: Float
     },
+    type TrollType {
+        id: ID,
+        name: String,
+        gender: String,
+        color: String,
+        bridge: BridgeType
+    },
     type Query {
+        trollById(id: ID!): TrollType,
         byId(id: ID!): BridgeType,
         narrower(maxWidth: Float!): [BridgeType],
         bridges: [BridgeType]
@@ -25,6 +33,11 @@ const schema = buildSchema(`
 `);
 
 const resolver = {
+    trollById: ({id}) => {
+        let thisTroll = trolls[id];
+        thisTroll.bridge = bridges[thisTroll.bridgeId]; // but what about other queries?
+        return thisTroll;
+    }, 
     byId: ({id}) => {
         return bridges[id]; // <-- I'm getting lucky here
     },

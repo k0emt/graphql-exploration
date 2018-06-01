@@ -74,3 +74,19 @@
   }
 }
 ```
+
+# 05-related-types-bridge-friends.js
+```
+{
+	trollById(id:0) {
+		name, 
+		color,
+		bridge {
+			id,
+			name,
+			length,
+			width
+		}
+  }
+}
+```
