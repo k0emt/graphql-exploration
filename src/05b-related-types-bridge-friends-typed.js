@@ -9,7 +9,6 @@ const graphqlHTTP = require('express-graphql')
 
 const express = require('express');
 const server = express();
-const _ = require('lodash');
 
 const bridges = require('../data/bridges.json');
 const trolls = require('../data/trolls.json');
