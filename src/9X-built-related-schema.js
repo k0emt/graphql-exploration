@@ -42,7 +42,7 @@ const server = express();
 
 // server.use -- both get and post verbs will work
 
-server.use('/', graphqlHTTP({
+server.use('/graphql', graphqlHTTP({
     schema: builtSchema, // short hand for schema: schema
     rootValue: root,
     graphiql: true

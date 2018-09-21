@@ -16,7 +16,7 @@ const resolvers = {
     },
 };
 
-server.use('/', graphqlHTTP({
+server.use('/graphql', graphqlHTTP({
     schema, 
     rootValue: resolvers,
     graphiql: true

@@ -9,8 +9,14 @@ const express = require('express');
 const server = express();
 
 // const schema = buildSchema(`
+//     type EchoType {
+//         id: ID,
+//         prefix: String,
+//         message: String,
+//         built_message: String
+//     },
 //     type Query {
-//         echo(prefix: String, message: String!): String
+//         echo(prefix: String, message: String!): EchoType
 //     }
 // `);
 
@@ -50,7 +56,7 @@ const schema = new GraphQLSchema({
    query: RootQuery
 })
 
-server.use('/', graphqlHTTP({
+server.use('/graphql', graphqlHTTP({
     schema, 
     // rootValue: resolver, // <--
     graphiql: true

@@ -16,7 +16,7 @@ const resolver = {
     },
    };
 
-server.use('/', // entry point
+server.use('/graphql', // entry point
     graphqlHTTP({
         schema, // short hand for schema: schema
         rootValue: resolver,
