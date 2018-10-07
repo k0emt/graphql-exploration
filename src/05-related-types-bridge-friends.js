@@ -4,7 +4,7 @@ const graphqlHTTP = require('express-graphql')
 const express = require('express');
 const server = express();
 
-const bridges = require('../data/bridges.json');
+const bridges = require('../data/bridges');     // external JSON data w/out extension
 const trolls = require('../data/trolls.json');
 
 const schema = buildSchema(`
