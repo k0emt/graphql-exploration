@@ -1,3 +1,5 @@
+// start with: npx nodemon 04-using-fields-bridges.js
+
 const { graphql, buildSchema } = require('graphql');
 const graphqlHTTP = require('express-graphql')
 
@@ -6,7 +8,8 @@ const server = express();
 
 const bridges = require('../data/bridges.json');
 
-// what if length below is specified as an Int?
+// what if maxWidth below is specified as an Int (from Float)?
+// what if I change year to a string (from Float)?
 const schema = buildSchema(`
     type BridgeType {
         id: ID,
