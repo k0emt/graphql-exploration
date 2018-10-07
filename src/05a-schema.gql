@@ -1,0 +1,24 @@
+module.exports = `
+    type BridgeType {
+        id: ID,
+        name: String,
+        lat: Float,
+        lng: Float,
+        year: Int,
+        length: Float,
+        width: Float
+    },
+    type TrollType {
+        id: ID,
+        name: String,
+        gender: String,
+        color: String,
+        bridge: BridgeType
+    },
+    type Query {
+        trollById(id: ID!): TrollType,
+        byId(id: ID!): BridgeType,
+        narrower(maxWidth: Float!): [BridgeType],
+        bridges: [BridgeType]
+    }
+`
