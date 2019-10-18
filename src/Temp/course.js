@@ -24,3 +24,4 @@ const CourseType = new GraphQLObjectType({
       MaxStudents: { type: GraphQLInt}
     }
   })
+
