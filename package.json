@@ -14,6 +14,6 @@
     "graphql": "^0.13.2"
   },
   "devDependencies": {
-    "nodemon": "^1.17.5"
+    "nodemon": "^2.0.12"
   }
 }
