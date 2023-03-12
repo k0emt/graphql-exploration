@@ -1,12 +1,12 @@
-# About
+# GraphQL Exploration
 
 This is a demonstration/learning project for GraphQL concepts.
 
-# Libraries
+## Libraries
 
 GraphQL, express-graphql
 
-# Tooling
+## Tooling
 
 * node.js
 * newer version of npm that includes npx
@@ -14,33 +14,37 @@ GraphQL, express-graphql
 
     `npx nodemon fileName.js`
 * Visual Studio Code
-    * GraphQL for VS Code extension
+  * GraphQL for VS Code extension
 * Insomnia
 
-# For you TODO
+## For you TODO
 
-5. bridges & trolls - typed querying examples
-    - query by bridge and get trolls
+5.bridges & trolls - typed querying examples
 
-6.  Mutations
-    - add a troll
-    - remove a troll
-    - edit a troll _hint: make trollId required and other arguments optional_
+* query by bridge and get trolls
 
-# Data
+6.Mutations
+  
+* add a troll
+* remove a troll
+* edit a troll _hint: make trollId required and other arguments optional_
+
+## Data
 
 [Bridge Data](https://github.com/humphd/bridge-troll)
 
 [Troll Data](http://www.dreamworks.com/trolls/explore/trolls/toys)
 
-# Resources
+## Resources
+
 [GraphQL.org](https://graphql.org)
 
 [How to GraphQL](https://www.howtographql.com)
 
 [My website](http://dbbear.com/)
 
-# YouTube Play Lists
+## YouTube Play Lists
+
 [Traversy Media: Build a GraphQL Server](https://www.youtube.com/playlist?list=PLillGF-RfqbYZty73_PHBqKRDnv7ikh68)
 
 [The Net Ninja: GraphQL Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9iK6Qhn-QLcXCXPQUov1U7f)
