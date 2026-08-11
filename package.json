@@ -9,7 +9,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.21.2",
+    "express": "^5.2.1",
     "express-graphql": "^0.6.12",
     "graphql": "^0.13.2"
   },
